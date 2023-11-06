@@ -399,7 +399,7 @@
   // This attaches an event listener that will fire when the shape is clicked.
   // In this case, we are telling the browser to run the goTo() function with 
   // the URL we want to navigate to as an argument
-  myStuffShape.addEventListener('click', () => goTo('MYWORKPAGE.html'));
+  myStuffShape.addEventListener('click', () => goTo('myworkpage.html'));
   
   // This function will take you to a new page.
   const goTo = (url) => {
@@ -409,14 +409,15 @@
   <script>
   const aboutmeShape = document.querySelector('#ABOUT_ME');
 
-  aboutmeShape.addEventListener('click', () => goTo('ABOUTMEPAGE.html'));
+  aboutmeShape.addEventListener('click', () => goTo('aboutmepage.html'));
   </script>
   <script>
   const contactShape = document.querySelector('#CONTACT');
 
-  contactShape.addEventListener('click', () => goTo('CONTACTPAGE.html'));
+  contactShape.addEventListener('click', () => goTo('contactpage.html'));
   </script>
   <script>
+    //*replace this.
   const campaignsShape = document.querySelector('#campaigns');
 
   campaignsShape.addEventListener('click', () => goTo('CAMPAIGNS.html'));
@@ -424,18 +425,18 @@
 <script>
     const homeShape = document.querySelector('#HOME');
     
-    homeShape.addEventListener('click', () => goTo('HOMEPAGE.html'));
+    homeShape.addEventListener('click', () => goTo('homepage.html'));
 </script>
 <script>
 const logoShape = document.querySelector('#LOGO');
 
-logoShape.addEventListener('click', () => goTo('HOMEPAGE.html'));
+logoShape.addEventListener('click', () => goTo('homepage.html'));
 </script>
 
 <script>
     const resumeShape = document.querySelector('#RESUME');
  // create downloadable link here.   
-    resumeShape.addEventListener('click', () => goTo('HOMEPAGE.html'));
+    resumeShape.addEventListener('click', () => goTo('cover letter template.pdf'));
     </script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540.42 19.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d34c4c;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="HEADER">
+      <g id="TABS">
+        <rect id="HOME_Rectangle_" data-name="HOME&amp;lt;Rectangle&amp;gt;" class="cls-1" width="92" height="19.66"/>
+        <rect id="ABOUT_ME_Rectangle_" data-name="ABOUT ME&amp;lt;Rectangle&amp;gt;" class="cls-1" x="93.42" width="159.08" height="19.66"/>
+        <rect id="MY_WORK_Rectangle_" data-name="MY WORK&amp;lt;Rectangle&amp;gt;" class="cls-1" x="253.76" width="150.32" height="19.66"/>
+        <rect id="CONTACT_Rectangle_" data-name="CONTACT&amp;lt;Rectangle&amp;gt;" class="cls-1" x="405.42" width="135" height="19.66"/>
+      </g>
+    </g>
+  </g>
+</svg>

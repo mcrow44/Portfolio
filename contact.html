@@ -7,15 +7,15 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/ebp7hqz.css">
     <link rel="stylesheet" href="https://use.typekit.net/ebp7hqz.css">
-
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
     <link rel="icon" type="image/png" href="/favicon.png"/>
-
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
     <link rel="mask-icon" href="/favicon.png" color="#000000">
     <link rel="alternate icon" class="js-site-favicon" type="/favicon.png">
     <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" href="/favicon.png">
-    
+
 <style>
     * {
         box-sizing: border-box;
@@ -67,14 +67,16 @@
     }
     .aboutme_header {
         display: flex;
-        transform: skewY(-5deg) translateY(-30px);
+        transform: skewY(-5deg);
         height: 100%;
         position: absolute;
+        top: 64px;
         font-size: 40px;
         font-family: "bebas-neue", sans-serif;
         font-weight: 400;
         font-style: normal;
         padding: 0 20px;
+        z-index: -1;
     }
     .aboutme_header h1 {
         margin: 0;
@@ -85,18 +87,18 @@
         justify-content: center;
     }
     .mywork a {
-            text-decoration: none;
-            color: #fff;
-        }
+        text-decoration: none;
+        color: #fff;
+    }
     .mywork a:hover  {
-    color: #52a0cc;
+        color: #52a0cc;
     }
     .contact a {
-            text-decoration: none;
-            color: #fff;
+        text-decoration: none;
+        color: #fff;
         }
     .contact a:hover  {
-    color: #52a0cc;
+        color: #52a0cc;
     }
     .wrapper nav ul li:last-child {
         border-right: none;
@@ -130,13 +132,7 @@
     }
     .portfolio {
         display: flex;
-        transform: skewY(5deg) translateY(150px);
-        height: 100%;
-        position: absolute;
-        z-index: 1;
-        bottom: 0;
-        left: -1px;
-        right: -1px;
+        transform: skewY(5deg);
     }
     /*.portfolio:hover .cls-1 {
         fill: #d34c4c;
@@ -147,17 +143,87 @@
         letter-spacing: 2px;
         padding: 0 20px;
         color: #fff;
+        display: flex;
+        margin-top: 100px;
     }
     .aboutme_body p {
         font-size: 24px;
     }
     .aboutme_right {
-        position: absolute;
-        padding-left: 60%;
+        width: 40%;
+    }
+    /* .aboutme_right p a {
+        text-decoration: none;
+        color: #fff;
+        z-index: 3;
+    } */
+    .phone a {
+        font-size: 24px;
+        font-family: "factoria", serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 0 10px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none; 
+    }
+    .phone a:hover {
+        color: #52a0cc;
+    }
+    .email a {
+        font-size: 24px;
+        font-family: "factoria", serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 0 10px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none; 
+    }
+    .email a:hover {
+        color: #52a0cc;
+    }
+    .insta a {
+        font-size: 24px;
+        font-family: "factoria", serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 0 10px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none; 
+        z-index: 1000;
+    }
+    .insta a:hover {
+        color: #52a0cc;
+    }
+    .twitter a {
+        font-size: 24px;
+        font-family: "factoria", serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 0 10px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none; 
+    }
+    .twitter a:hover {
+        color: #52a0cc;
+    }
+    .aboutme_right ul {
+        font-size: 24px;
+        font-family: "factoria", serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 0 10px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
     }
     .aboutme_left {
-        position: absolute;
-        padding-left: 5%;
+        width: 55%;
+        padding-left: 60px;
+        padding-right: 300px;
     }
     .downloadarrow {
         position: absolute;
@@ -173,10 +239,10 @@
         transform: skewY(-5deg);
         width: 95%;
         margin: 0 auto;
-        height: 600px;
-        z-index: -1;
+        z-index: 0;
         position: relative;
         justify-content: center;
+        margin-bottom: 200px;
     }
     .closingbox {
         display: flex;
@@ -192,24 +258,22 @@
     .endbox {
         display: flex;
         background-color: #4eacd1;
-        transform: translateY(340%);
-        height: 100px;
+        height: 120px;
         width: 100%;
-        position: absolute;
-        z-index: -1;
-        bottom: 0;
-        margin-top: 50px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 0;
 
     }
     .copyright {
         display: flex;
-        transform: translateY(0);
-        height: 70%;
-        position: absolute;
-        z-index: 1;
-        bottom: 10px;
-        left: 10px;
-        right: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    .copyright a {
+        width: 50%;
+        height: 60px;
     }
     .copyright .cls-1 {
     fill: #fff;
@@ -228,7 +292,7 @@
             <!--"logo"-->
 <header>
     <div class="wrapper">
-       <div class="logo"><a href="index.html">
+       <div class="logo"><a href="https://www.mcronindesigns.com/\">
         <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 683.02 124.2">
             <defs>
               <style>
@@ -263,7 +327,7 @@
        </div>
         <nav>
         <ul>
-            <li class="home"><a href="index.html">HOME</a></li>
+            <li class="home"><a href="https://www.mcronindesigns.com/\">HOME</a></li>
             <li class="aboutme"><a href="aboutme.html">ABOUT ME</a></li>
             <li class="mywork"><a href="mywork.html">MY WORK</a></li>
             <li class="contact"><a href="contact.html">CONTACT</a></li>
@@ -287,35 +351,42 @@
                 <h1>CONTACT</h1>
             </div>
             <!--Hey there, I appreciate your interest in M. Cronin Designs. Whether you've got questions, just want to chat about what I do, or want to discuss how I can cater to your specific needs, we're all ears, so don't hesitate to get in touch. Feel free to text, call, or shoot over an email. I look forward to the opportunity to work with you and providing your company or event the branding it deserves.-->
+            
             <div class="aboutme_body">
-            <div class="aboutme_left">
-                <P >Hey there,<br><br>
-                    I appreciate your interest <br>
-                    in <b>M. Cronin Designs</b>.<br>
-                    Whether you've got questions, <br>
-                    just want to chat about what I do,<br>
-                    or want to discuss how I can cater to <br>
-                    your specific needs, we're all ears,<br>
-                    so don't hesitate to get in touch.<br>
-                    Feel free to text, call, or shoot over an email.<br>
-                    I look forward to the opportunity <br>
-                    to work with you and<br>
-                    provide your company or event <br>
-                    the branding it deserves.<br><br>
+                <div class="aboutme_left">
+                    <P >Hey there,<br><br>
+                        I appreciate your interest 
+                        in <b>M. Cronin Designs</b>.
+                        Whether you've got questions, 
+                        just want to chat about what I do,
+                        or want to discuss how I can cater to 
+                        your specific needs, I'm all ears,
+                        so don't hesitate to get in touch.
+                        Feel free to text, call, or shoot over an email.
+                        I look forward to the opportunity 
+                        to work with you and
+                        provide your company or event 
+                        the branding it deserves.<br><br>
+                        
+                        -Michael Cronin</P>
                     
-                    -Michael Cronin</P>
-                
-            </div>
-            <div class="aboutme_right">
-                    <h1>PHONE/EMAIL:</h1>
-                    <p>509. 953. 5106<br>
-                    mfcronin@nic.edu</p>
-                    <h1>SOCIALS:</h1>
-                    <P>Instagram<br>
-                        @ m.cronindesigns<br><br>
-                    X (twitter)<br>
-                        @ M_CroninDesigns</P>
-            </div>
+                </div>
+                <div class="aboutme_right">
+                        <h1>PHONE/EMAIL:</h1>
+                        <ul>
+                            <li class="phone"><a href="tel:5099535106">509. 953. 5106</a></li>
+                            <li class="email"><a href="mailto:mfcronin@nic.edu">mfcronin@nic.edu</a></li>
+                        </ul>
+                        <h1>SOCIALS:</h1>
+                        <p>Instagram<br></p>
+                        <ul>
+                            <li class="insta"><a href="https://www.instagram.com/m.cronindesigns/">@ m.cronindesigns</a></li>
+                        </ul>
+                        <p>X (twitter)<p>
+                        <ul>
+                            <li class="twitter"><a href="https://www.instagram.com/m.cronindesigns/">@ M_CroninDesign</a></li>
+                        </ul>
+                </div>
             </div>
             <!--<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1224.33 410.24">
             <defs>
@@ -351,7 +422,7 @@
 <footer>
     <div class="endbox">
         <div class="copyright">
-            <a href="https://www.copyright.gov/title17/title17.pdf" class="copyright"><svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.99 68.01">
+            <a href="https://www.copyright.gov/title17/title17.pdf"><svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.99 68.01">
                 <defs>
                   <style>
                     .cls-1 {

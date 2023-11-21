@@ -37,14 +37,16 @@ body {
         color: #fff;
     }
 .home a:hover  {
-color: #52a0cc;
+        color: #52a0cc;
+        transition: color ease .5s;
 }
 .aboutme a {
         text-decoration: none;
         color: #fff;
     }
 .aboutme a:hover  {
-color: #52a0cc;
+        color: #52a0cc;
+        transition: color ease .5s;
 }
 .aboutme_header {
     display: flex;
@@ -73,6 +75,7 @@ color: #52a0cc;
 }
 .mywork a:hover  {
     color: #52a0cc;
+    transition: color ease .5s;
 }
 .contact a {
     text-decoration: none;
@@ -80,6 +83,7 @@ color: #52a0cc;
     }
 .contact a:hover  {
     color: #52a0cc;
+    transition: color ease .5s;
 }
 .wrapper nav ul li:last-child {
     border-right: none;
@@ -155,6 +159,7 @@ main {
 }
 .phone a:hover {
     color: #52a0cc;
+    transition: color ease .5s;
 }
 .email a {
     font-size: 24px;
@@ -168,6 +173,7 @@ main {
 }
 .email a:hover {
     color: #52a0cc;
+    transition: color ease .5s;
 }
 .insta a {
     font-size: 24px;
@@ -182,6 +188,7 @@ main {
 }
 .insta a:hover {
     color: #52a0cc;
+    transition: color ease .5s;
 }
 .twitter a {
     font-size: 24px;
@@ -195,6 +202,7 @@ main {
 }
 .twitter a:hover {
     color: #52a0cc;
+    transition: color ease .5s;
 }
 .aboutme_right ul {
     font-size: 24px;
@@ -218,6 +226,7 @@ main {
 }
 .downloadarrow:hover .st0 {
     stroke: #52a0cc;
+    transition: stroke ease .5s;
 }
 .mainbox {
     display: flex;

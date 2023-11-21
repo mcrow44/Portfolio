@@ -307,6 +307,7 @@ padding: 0;
 /* fix margin and padding */
 .copyright a:hover .cls-1 {
     fill: #d34c4c;
+    transition: fill ease .5s;
 }
 .name {
     color: #52a0cc;

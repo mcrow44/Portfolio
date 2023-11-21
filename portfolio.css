@@ -308,6 +308,9 @@ padding: 0;
 .copyright a:hover .cls-1 {
     fill: #d34c4c;
 }
+.name {
+    color: #52a0cc;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }

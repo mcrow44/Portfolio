@@ -337,3 +337,35 @@ padding: 0;
 ::-webkit-scrollbar-corner {
     background-color: #bdefff00;
 }
+.container {
+    max-width: 3024px;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+.title {
+    margin-bottom: 40px;
+    width: 100%;
+}
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+.photo img {
+    height: auto;
+    width: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+@media(max-width:768px) {
+    .photo-gallery{
+        flex-direction: column;
+    }
+}

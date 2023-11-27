@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .gallery {
+            display: flex;
+            max-width: 1200px;
+            width: 90%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            opacity: 1;
+            object-fit: cover;
+            object-position: bottom;
+            padding: 5px;
+            
+        }
+        .gallery img:hover {
+            cursor: pointer;
+            opacity: .75;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="favicon-32x32.png" alt="1">
+        <img src="favicon-32x32.png" alt="2">
+        <img src="favicon-32x32.png" alt="3">
+        <img src="favicon-32x32.png" alt="4">
+        <img src="favicon-32x32.png" alt="5">
+        <img src="favicon-32x32.png" alt="6">
+    </div>
+    
+</body>
+</html>

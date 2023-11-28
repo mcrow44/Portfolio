@@ -379,7 +379,7 @@ main {
     position: relative;
     justify-content: center;
     margin-bottom: 200px;
-    margin-top: 125px;
+    margin-top: 25px;
 }
 .closingbox {
     display: flex;
@@ -551,9 +551,6 @@ padding: 0;
     }
     .aboutme_body {
         margin-left:100px;
-    }
-    .mainbox {
-        margin-top: 1000px;
     }
 }
 /* .aboutme_left {

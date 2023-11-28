@@ -249,6 +249,9 @@ main {
     fill: #d34c4c;
 }*/
 .aboutme_body {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: "factoria", serif;
     font-weight: 400;
     letter-spacing: 2px;
@@ -499,6 +502,9 @@ padding: 0;
     .mobile-logo-bar {
         display: none;
     }
+    .aboutme_body {
+        margin-left:200px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -510,5 +516,7 @@ padding: 0;
         display: flex;
         flex-direction: row;
     }
-    
+    .aboutme_body {
+        margin-left:100px;
+    }
 }

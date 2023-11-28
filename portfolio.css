@@ -145,6 +145,15 @@ body {
   .mobile-logo-bar .menu > li:not(:last-child) {
     border-bottom: 1px solid #d34c4c;
   }
+  h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
 
 .home a {
         text-decoration: none;
@@ -260,6 +269,7 @@ main {
     color: #fff;
     display: flex;
     margin-top: 100px;
+
 }
 .aboutme_body p {
     font-size: 24px;
@@ -340,9 +350,15 @@ main {
     text-decoration: none;
 }
 .aboutme_left {
-    width: 55%;
-    padding-left: 60px;
-    padding-right: 300px;
+    /* width: 55%; */
+    padding-left: 5%;
+    margin-right: 10%;
+    /* padding-right: 300px; */
+    padding-top: 120px;
+
+}
+.aboutme_left p {
+    /* white-space: nowrap; */
 }
 .downloadarrow {
     position: absolute;
@@ -490,6 +506,21 @@ padding: 0;
     gap: 20px;
     margin-bottom: 20px;
 }
+
+/* @media (min-width: 767px) {
+    .wrapper .desktop-nav {
+        display: block;
+    }
+
+    .logo-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-logo-bar {
+        display: none;
+    }
+}  */
 @media (min-width: 767px) {
     .wrapper .desktop-nav {
         display: block;
@@ -506,6 +537,7 @@ padding: 0;
     .aboutme_body {
         margin-left:200px;
     }
+    
 }
 
 @media (min-width: 1200px) {
@@ -520,4 +552,17 @@ padding: 0;
     .aboutme_body {
         margin-left:100px;
     }
+    .mainbox {
+        margin-top: 1000px;
+    }
 }
+/* .aboutme_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.mainbox {
+    margin-top: 0;
+} */

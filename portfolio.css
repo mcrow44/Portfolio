@@ -60,6 +60,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: skewY(-5deg);
   }
   
   .mobile-logo-bar #menu-toggle {

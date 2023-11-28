@@ -127,9 +127,10 @@ body {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     font-family: "factoria", serif;
     font-weight: 400;
+    font-size: 14pt;
     letter-spacing: 2px;
     padding: 0 10px;
-    border-right: 1px solid white;
+    border-right: 1px solid #d34c4c;
     color: #fff;
     white-space: nowrap;
   }
@@ -368,6 +369,9 @@ main {
 .downloadarrow:hover .st0 {
     stroke: #52a0cc;
     transition: stroke ease .5s;
+}
+li .phone .email .insta .twitter {
+    white-space: nowrap;
 }
 .mainbox {
     display: flex;

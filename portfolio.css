@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #decfb4;
 }
 .wrapper {
     display: flex;
@@ -33,8 +34,8 @@ body {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 10px;
-    border-right: 1px solid white;
-    color: #fff;
+    border-right: 1px solid #decfb4;
+    color: #decfb4;
     white-space: nowrap;
 }
 
@@ -71,7 +72,7 @@ body {
   .mobile-logo-bar .menu-button::before,
   .mobile-logo-bar .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #decfb4;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -95,7 +96,7 @@ body {
   }
   
   .mobile-logo-bar #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
+    background: #decfb4;;
   }
   
   .mobile-logo-bar #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -121,7 +122,7 @@ body {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   .mobile-logo-bar #menu-toggle:checked ~ .menu li {
-    border: 1px solid #d34c4c;
+    border: 1px solid #8c6454;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -130,8 +131,8 @@ body {
     font-size: 14pt;
     letter-spacing: 2px;
     padding: 0 10px;
-    border-right: 1px solid #d34c4c;
-    color: #fff;
+    border-right: 1px solid #8c6454;
+    color: #decfb4;
     white-space: nowrap;
   }
   .mobile-logo-bar .menu > li {
@@ -140,11 +141,11 @@ body {
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
-    background-color: #d34c4c;
+    color: #decfb4;
+    background-color: #8c6454;
   }
   .mobile-logo-bar .menu > li:not(:last-child) {
-    border-bottom: 1px solid #d34c4c;
+    border-bottom: 1px solid #8c6454;
   }
   h2 {
     display: block;
@@ -158,18 +159,18 @@ body {
 
 .home a {
         text-decoration: none;
-        color: #fff;
+        color: #decfb4;
     }
 .home a:hover  {
-        color: #52a0cc;
+        color: #242c3c;
         transition: color ease .5s;
 }
 .aboutme a {
         text-decoration: none;
-        color: #fff;
+        color: #decfb4;
     }
 .aboutme a:hover  {
-        color: #52a0cc;
+        color: #242c3c;
         transition: color ease .5s;
 }
 .aboutme_header {
@@ -187,7 +188,7 @@ body {
 }
 .aboutme_header h1 {
     margin: 0;
-    background:linear-gradient(to bottom, #4eacd1 0px, #4eacd1 44px, #52a0cc 44px, #52a0cc 80px);
+    background:linear-gradient(to bottom, #58616b 0px, #58616b 44px, #242c3c 44px, #242c3c 80px);
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
@@ -195,18 +196,18 @@ body {
 }
 .mywork a {
     text-decoration: none;
-    color: #fff;
+    color: #decfb4;
 }
 .mywork a:hover  {
-    color: #52a0cc;
+    color: #242c3c;
     transition: color ease .5s;
 }
 .contact a {
     text-decoration: none;
-    color: #fff;
+    color: #decfb4;
     }
 .contact a:hover  {
-    color: #52a0cc;
+    color: #242c3c;
     transition: color ease .5s;
 }
 .wrapper nav ul li:last-child {
@@ -216,10 +217,10 @@ body {
     min-width: 52%;
 }
 .logo a .cls-1 {
-    fill: rgb(255,255,255);
+    fill: #decfb4;
 }
 .logo a:hover .cls-1 {
-    fill: #52a0cc;
+    fill: #242c3c;
     /* fill: rgb(9,93,134); */
     transition: fill ease .5s;
 }
@@ -231,7 +232,7 @@ body {
     padding: 35px;
 }
 .redbox {
-    background-color: #d34c4c;
+    background-color: #8c6454;
     transform: skewY(-5deg) translateY(-200px);
     width: 100%;
     position:absolute;
@@ -244,8 +245,8 @@ body {
     flex-direction: row;
 }
 .bluebox {
-    /*background: linear-gradient(to bottom, #ff7e5f 0%, #ff7e5f 50%, #feb47b 51%, #feb47b 100%);*/
-    background: linear-gradient(to bottom, #4eacd1 0%, #4eacd1 50%, #52a0cc 51%, #52a0cc 100%);
+    /*background: linear-gradient(to bottom, #242c3c 0%, #242c3c 50%, #58616b 51%, #58616b 100%);*/
+    background: linear-gradient(to bottom, #58616b 0%, #58616b 50%, #242c3c 51%, #242c3c 100%);
     height: 35px;
     width: 100%;
 }
@@ -257,7 +258,7 @@ main {
     transform: skewY(5deg);
 }
 /*.portfolio:hover .cls-1 {
-    fill: #d34c4c;
+    fill: #8c6454;
 }*/
 .aboutme_body {
     display:flex;
@@ -267,7 +268,7 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 20px;
-    color: #fff;
+    color: #decfb4;
     display: flex;
     margin-top: 100px;
 
@@ -280,7 +281,7 @@ main {
 }
 /* .aboutme_right p a {
     text-decoration: none;
-    color: #fff;
+    color: #decfb4;
     z-index: 3;
 } */
 .phone a {
@@ -289,12 +290,12 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 10px;
-    color: #fff;
+    color: #decfb4;
     list-style: none;
     text-decoration: none; 
 }
 .phone a:hover {
-    color: #52a0cc;
+    color: #242c3c;
     transition: color ease .5s;
 }
 .email a {
@@ -303,12 +304,12 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 10px;
-    color: #fff;
+    color: #decfb4;
     list-style: none;
     text-decoration: none; 
 }
 .email a:hover {
-    color: #52a0cc;
+    color: #242c3c;
     transition: color ease .5s;
 }
 .insta a {
@@ -317,13 +318,13 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 10px;
-    color: #fff;
+    color: #decfb4;
     list-style: none;
     text-decoration: none; 
     z-index: 1000;
 }
 .insta a:hover {
-    color: #52a0cc;
+    color: #242c3c;
     transition: color ease .5s;
 }
 .twitter a {
@@ -332,12 +333,12 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 10px;
-    color: #fff;
+    color: #decfb4;
     list-style: none;
     text-decoration: none; 
 }
 .twitter a:hover {
-    color: #52a0cc;
+    color: #242c3c;
     transition: color ease .5s;
 }
 .aboutme_right ul {
@@ -346,7 +347,7 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0 10px;
-    color: #fff;
+    color: #decfb4;
     list-style: none;
     text-decoration: none;
 }
@@ -364,10 +365,14 @@ main {
 .downloadarrow {
     position: absolute;
     max-width: 30px;
-    background-color: #d34c4c;
+    background-color: #8c6454;
+    
+}
+.downloadarrow .st0 {
+    stroke: #decfb4;
 }
 .downloadarrow:hover .st0 {
-    stroke: #52a0cc;
+    stroke: #242c3c;
     transition: stroke ease .5s;
 }
 li .phone .email .insta .twitter {
@@ -375,7 +380,7 @@ li .phone .email .insta .twitter {
 }
 .mainbox {
     display: flex;
-    background-color: #d34c4c;
+    background-color: #8c6454;
     transform: skewY(-5deg);
     width: 95%;
     margin: 0 auto;
@@ -387,7 +392,7 @@ li .phone .email .insta .twitter {
 }
 .closingbox {
     display: flex;
-    background-color: #d34c4c;
+    background-color: #8c6454;
     transform: skewY(5deg) translateY(50%);
     height: 300px;
     width: 100%;
@@ -427,7 +432,7 @@ li .phone .email .insta .twitter {
     right: 0;
     bottom: 0;
     opacity: 0;
-    background-color: #fff;
+    background-color: #decfb4;
     z-index: 100;
 }
 .gallery .gallery-item:hover .gallery-item-overlay {
@@ -436,7 +441,7 @@ li .phone .email .insta .twitter {
 }
 .endbox {
     display: flex;
-    background-color: #4eacd1;
+    background-color: #58616b;
     height: 120px;
     width: 100%;
     padding-top: 10px;
@@ -455,17 +460,17 @@ li .phone .email .insta .twitter {
     height: 60px;
 }
 .copyright .cls-1 {
-fill: #fff;
+fill: #decfb4;
 margin: 0;
 padding: 0;
 }
 /* fix margin and padding */
 .copyright a:hover .cls-1 {
-    fill: #d34c4c;
+    fill: #8c6454;
     transition: fill ease .5s;
 }
 .name {
-    color: #52a0cc;
+    color: #242c3c;
 }
 ::-webkit-scrollbar {
     width: 8px;
@@ -476,7 +481,7 @@ padding: 0;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #4eacd1;
+    background-color: #58616b;
     border-radius: 10px;
 }
 

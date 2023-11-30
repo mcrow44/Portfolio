@@ -160,18 +160,20 @@ body {
 .home a {
         text-decoration: none;
         color: #decfb4;
+        transition: color ease-in-out .5s;
     }
 .home a:hover  {
         color: #242c3c;
-        transition: color ease .5s;
+        transition: color ease-in-out .5s;
 }
 .aboutme a {
         text-decoration: none;
         color: #decfb4;
+        transition: color ease-in-out .5s;
     }
 .aboutme a:hover  {
         color: #242c3c;
-        transition: color ease .5s;
+        transition: color ease-in-out .5s;
 }
 .aboutme_header {
     display: flex;
@@ -197,18 +199,20 @@ body {
 .mywork a {
     text-decoration: none;
     color: #decfb4;
+    transition: color ease-in-out .5s;
 }
 .mywork a:hover  {
     color: #242c3c;
-    transition: color ease .5s;
+    transition: color ease-in-out .5s;
 }
 .contact a {
     text-decoration: none;
     color: #decfb4;
+    transition: color ease-in-out .5s;
     }
 .contact a:hover  {
     color: #242c3c;
-    transition: color ease .5s;
+    transition: color ease-in-out .5s;
 }
 .wrapper nav ul li:last-child {
     border-right: none;
@@ -218,11 +222,12 @@ body {
 }
 .logo a .cls-1 {
     fill: #decfb4;
+    transition: fill ease-in-out .5s;
 }
 .logo a:hover .cls-1 {
     fill: #242c3c;
     /* fill: rgb(9,93,134); */
-    transition: fill ease .5s;
+    transition: fill ease-in-out .5s;
 }
 .header-container {
     transform: skewY(5deg) translateY(0%);
@@ -292,11 +297,12 @@ main {
     padding: 0 10px;
     color: #decfb4;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
+    transition: color ease-in-out .5s; 
 }
 .phone a:hover {
     color: #242c3c;
-    transition: color ease .5s;
+    transition: color ease-in-out .5s;
 }
 .email a {
     font-size: 24px;
@@ -306,11 +312,12 @@ main {
     padding: 0 10px;
     color: #decfb4;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
+    transition: color ease-in-out .5s; 
 }
 .email a:hover {
     color: #242c3c;
-    transition: color ease .5s;
+    transition: color ease-in-out .5s;
 }
 .insta a {
     font-size: 24px;
@@ -322,10 +329,11 @@ main {
     list-style: none;
     text-decoration: none; 
     z-index: 1000;
+    transition: color ease-in-out .5s;
 }
 .insta a:hover {
     color: #242c3c;
-    transition: color ease .5s;
+    transition: color ease-in-out .5s;
 }
 .twitter a {
     font-size: 24px;
@@ -335,11 +343,12 @@ main {
     padding: 0 10px;
     color: #decfb4;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
+    transition: color ease-in-out .5s; 
 }
 .twitter a:hover {
     color: #242c3c;
-    transition: color ease .5s;
+    transition: color ease-in-out .5s;
 }
 .aboutme_right ul {
     font-size: 24px;
@@ -370,10 +379,11 @@ main {
 }
 .downloadarrow .st0 {
     stroke: #decfb4;
+    transition: color ease-in-out .5s;
 }
 .downloadarrow:hover .st0 {
     stroke: #242c3c;
-    transition: stroke ease .5s;
+    transition: stroke ease-in-out .5s;
 }
 li .phone .email .insta .twitter {
     white-space: nowrap;
@@ -434,10 +444,11 @@ li .phone .email .insta .twitter {
     opacity: 0;
     background-color: #decfb4;
     z-index: 100;
+    transition: color ease-in-out .5s;
 }
 .gallery .gallery-item:hover .gallery-item-overlay {
     opacity: .5;
-    transition: opacity ease-in .25s;
+    transition: opacity ease-in-out .25s;
 }
 .endbox {
     display: flex;
@@ -463,11 +474,12 @@ li .phone .email .insta .twitter {
 fill: #decfb4;
 margin: 0;
 padding: 0;
+transition: fill ease-in-out .5s;
 }
 /* fix margin and padding */
 .copyright a:hover .cls-1 {
     fill: #8c6454;
-    transition: fill ease .5s;
+    transition: fill ease-in-out .5s;
 }
 .name {
     color: #242c3c;

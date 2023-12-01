@@ -426,6 +426,7 @@ li .phone .email .insta .twitter {
     margin: 10px;
     position: relative;
     cursor: pointer;
+    /* pointer-events: none; */
 }
 .gallery img {
     width: 360px;

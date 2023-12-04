@@ -77,7 +77,7 @@ body {
     height: 4px;
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
+    border-radius: 0px;
   }
   
   .mobile-logo-bar .menu-button::before {
@@ -96,7 +96,7 @@ body {
   }
   
   .mobile-logo-bar #menu-toggle:checked + .menu-button-container .menu-button {
-    background: #decfb4;;
+    background: transparent;
   }
   
   .mobile-logo-bar #menu-toggle:checked + .menu-button-container .menu-button::after {

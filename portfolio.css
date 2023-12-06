@@ -121,6 +121,10 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    font-family: "factoria", serif;
+    font-weight: 400;
+    font-size: 14pt;
+    letter-spacing: 2px;
   }
   .mobile-logo-bar #menu-toggle ~ .menu li {
     height: 0;

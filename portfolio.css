@@ -45,11 +45,19 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: "factoria", serif;
+    font-weight: 400;
+    font-size: 14pt;
+    letter-spacing: 2px;
   }
   
   .mobile-logo-bar .menu > li {
     margin: 0 1rem;
     overflow: hidden;
+    font-family: "factoria", serif;
+    font-weight: 400;
+    font-size: 14pt;
+    letter-spacing: 2px;
   }
   
   .mobile-logo-bar .menu-button-container {

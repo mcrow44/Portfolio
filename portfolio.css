@@ -640,7 +640,7 @@ body::-webkit-scrollbar-corner {
         display: none;
     }
     .aboutme_body {
-        margin-left:200px;
+        margin-left:280px;
     }
     .aboutme_body ul li:first-child {
         margin-top: 20px;

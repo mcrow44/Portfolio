@@ -46,7 +46,7 @@ body {
     flex-wrap: wrap;
     list-style: none;
     text-decoration: none;
-    margin-top: 120px;
+    margin-top: 160px;
     padding: 10px;
 }
 .aboutme_body ul li {
@@ -500,7 +500,7 @@ li .phone .email .insta .twitter {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 100px;
 }
 .gallery .gallery-item {
     width: 360px;
@@ -509,6 +509,7 @@ li .phone .email .insta .twitter {
     margin: 10px;
     position: relative;
     cursor: pointer;
+    transition: .5s;
     /* pointer-events: none; */
 }
 .gallery img {
@@ -528,7 +529,10 @@ li .phone .email .insta .twitter {
     opacity: 0;
     background-color: #decfb4;
     z-index: 100;
-    /* transition: color ease-in-out .5s; */
+    transition: .5s;
+}
+.gallery-item:hover {
+    transform: scale(1.05);
 }
 .gallery .gallery-item:hover .gallery-item-overlay {
     opacity: .5;

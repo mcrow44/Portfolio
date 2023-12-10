@@ -1,0 +1,185 @@
+body.tritanopia-theme {
+    background-color: #e1cbc8;
+}
+
+body.tritanopia-theme .wrapper nav ul li {
+    border-right: 1px solid #e1cbc8;
+    color: #e1cbc8;
+    white-space: nowrap;
+}
+
+body.tritanopia-theme .wrapper nav ul li:last-child {
+    border-right: none;
+}
+body.tritanopia-theme .aboutme_body ul li {
+    color: #e1cbc8ff;
+    background-color: #e1cbc83d;
+}
+body.tritanopia-theme .aboutme_body ul li:hover {
+    color: #212f31ff;
+    background-color: #212f3129;
+}
+body.tritanopia-theme .aboutme_body ul .name {
+    color: #212f31 !important;
+    transform: none !important;
+    cursor: default !important;
+}
+body.tritanopia-theme .mobile-logo-bar .menu-button,
+body.tritanopia-theme .mobile-logo-bar .menu-button::before,
+body.tritanopia-theme .mobile-logo-bar .menu-button::after {
+    background-color: #e1cbc8;
+  }
+body.tritanopia-theme .mobile-logo-bar #menu-toggle:checked ~ .menu li {
+    border: 1px solid #8e6161;
+    border-right: 1px solid #8e6161;
+    color: #e1cbc8;
+  }
+  body.tritanopia-theme .mobile-logo-bar .menu > li {
+    color: #e1cbc8;
+    background-color: #8e6161;
+  }
+  body.tritanopia-theme .mobile-logo-bar .menu > li:not(:last-child) {
+    border-bottom: 1px solid #8e6161;
+  }
+  
+  body.tritanopia-theme .home a {
+        color: #e1cbc8;
+    }
+    body.tritanopia-theme .home a:hover  {
+        color: #212f31;
+}
+body.tritanopia-theme .aboutme a {
+        color: #e1cbc8;
+    }
+    body.tritanopia-theme .aboutme a:hover  {
+        color: #212f31;
+}
+body.tritanopia-theme .aboutme_header h1 {
+    margin: 0;
+    background:linear-gradient(to bottom, #566264 0px, #566264 44px, #212f31 44px, #212f31 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+body.tritanopia-theme .aboutme_header h2 {
+    margin: 0;
+    background:linear-gradient(to bottom, #566264 0px, #566264 44px, #212f31 44px, #212f31 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+body.tritanopia-theme .mywork a {
+    color: #e1cbc8;
+}
+body.tritanopia-theme .mywork a:hover  {
+    color: #212f31;
+}
+body.tritanopia-theme .contact a {
+    color: #e1cbc8;
+    }
+    body.tritanopia-theme .contact a:hover  {
+    color: #212f31;
+
+}
+body.tritanopia-theme .logo a .cls-1 {
+    fill: #e1cbc8;
+}
+body.tritanopia-theme .logo a:hover .cls-1 {
+    fill: #212f31;
+    /* fill: rgb(9,93,134); */
+}
+body.tritanopia-theme .redbox {
+    background-color: #8e6161;
+}
+body.tritanopia-theme .bluebox {
+    /*background: linear-gradient(to bottom, #212f31 0%, #212f31 50%, #566264 51%, #566264 100%);*/
+    background: linear-gradient(to bottom, #566264 0%, #566264 50%, #212f31 51%, #212f31 100%);
+}
+
+/*.portfolio:hover .cls-1 {
+    fill: #8e6161;
+}*/
+body.tritanopia-theme .aboutme_body {
+    color: #e1cbc8;
+
+}
+/* .aboutme_right p a {
+    text-decoration: none;
+    color: #e1cbc8;
+    z-index: 3;
+} */
+body.tritanopia-theme .phone a {
+    color: #e1cbc8;
+}
+body.tritanopia-theme .phone a:hover {
+    color: #212f31;
+}
+body.tritanopia-theme .email a {
+    color: #e1cbc8;
+}
+body.tritanopia-theme .email a:hover {
+    color: #212f31;
+}
+body.tritanopia-theme .insta a {
+    color: #e1cbc8;
+}
+body.tritanopia-theme .insta a:hover {
+    color: #212f31;
+}
+body.tritanopia-theme .twitter a {
+    color: #e1cbc8;
+}
+body.tritanopia-theme .twitter a:hover {
+    color: #212f31;
+}
+body.tritanopia-theme .aboutme_right ul {
+    color: #e1cbc8;
+}
+body.tritanopia-theme .downloadarrow {
+    background-color: #8e6161;
+    
+}
+body.tritanopia-theme .downloadarrow .st0 {
+    stroke: #e1cbc8;
+}
+body.tritanopia-theme .downloadarrow:hover .st0 {
+    stroke: #212f31;
+}
+body.tritanopia-theme .mainbox {
+    background-color: #8e6161;
+}
+body.tritanopia-theme .closingbox {
+    background-color: #8e6161;
+}
+body.tritanopia-theme .gallery .gallery-item .gallery-item-overlay {
+    background-color: #e1cbc8;
+}
+body.tritanopia-theme .endbox {
+    background-color: #566264;
+}
+body.tritanopia-theme .copyright .cls-1 {
+fill: #e1cbc8;
+}
+/* fix margin and padding */
+body.tritanopia-theme .copyright a:hover .cls-1 {
+    fill: #212f31e0;
+}
+body.tritanopia-theme .name {
+    color: #212f31;
+}
+body.tritanopia-theme::-webkit-scrollbar {
+    width: 8px;
+}
+body.tritanopia-theme::-webkit-scrollbar-track {
+    background-color: #212f3100;
+}
+
+body.tritanopia-theme::-webkit-scrollbar-thumb {
+    background-color: #566264;
+}
+
+body.tritanopia-theme::-webkit-scrollbar-corner {
+    background-color: #212f3100;
+}

@@ -6,6 +6,8 @@ body {
     padding: 0;
     background-color: #decfb4;
 }
+
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -38,7 +40,64 @@ body {
     color: #decfb4;
     white-space: nowrap;
 }
+.aboutme_body ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 80px;
+    padding: 10px;
+}
+.aboutme_body ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 21px;
+    font-family: "factoria", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-top: 20px;
+    /* border-right: 2px solid #decfb4; */
+    color: #decfb4ff;
+    background-color: #decfb43d;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: .5s;
+    /* break */
+    padding: 0 20px;
+}
+#lightButton {
+    padding: 10px;
+}
+#darkButton {
+    padding: 10px;
+}
+#blueButton {
+    padding: 10px;
+}
+#basicButton {
+    padding: 10px;
+}
 
+.aboutme_body ul li:hover {
+    transform: scale(1.05);
+    color: #242c3cff;
+    background-color: #242c3c29;
+    /* border-color: #242c3c; */
+}
+.aboutme_body ul li:last-child {
+    border-right: none; 
+}
+.aboutme_body ul li:first-child {
+    margin-top: 160px; 
+}
+.aboutme_body ul .name {
+    color: #242c3c !important;
+    transform: none !important;
+    cursor: default !important;
+}
   .mobile-logo-bar .menu {
     display: flex;
     flex-direction: row;
@@ -212,6 +271,15 @@ body {
     text-align: center;
     justify-content: center;
 }
+.aboutme_header h2 {
+    margin: 0;
+    background:linear-gradient(to bottom, #58616b 0px, #58616b 44px, #242c3c 44px, #242c3c 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+    white-space: pre-wrap;
+}
 .mywork a {
     text-decoration: none;
     color: #decfb4;
@@ -290,7 +358,6 @@ main {
     letter-spacing: 2px;
     padding: 0 20px;
     color: #decfb4;
-    display: flex;
     margin-top: 100px;
 
 }
@@ -433,7 +500,7 @@ li .phone .email .insta .twitter {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 .gallery .gallery-item {
     width: 360px;
@@ -461,11 +528,11 @@ li .phone .email .insta .twitter {
     opacity: 0;
     background-color: #decfb4;
     z-index: 100;
-    transition: color ease-in-out .5s;
+    /* transition: color ease-in-out .5s; */
 }
 .gallery .gallery-item:hover .gallery-item-overlay {
     opacity: .5;
-    transition: opacity ease-in-out .25s;
+    transition: opacity ease-in-out .5s;
 }
 .endbox {
     display: flex;
@@ -495,26 +562,26 @@ transition: fill ease-in-out .5s;
 }
 /* fix margin and padding */
 .copyright a:hover .cls-1 {
-    fill: #8c6454;
+    fill: #242c3ce0;
     transition: fill ease-in-out .5s;
 }
 .name {
     color: #242c3c;
 }
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 8px;
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background-color: #bdefff00;
 }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: #58616b;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
-::-webkit-scrollbar-corner {
+body::-webkit-scrollbar-corner {
     background-color: #bdefff00;
 }
 .container {
@@ -575,6 +642,9 @@ transition: fill ease-in-out .5s;
     .aboutme_body {
         margin-left:200px;
     }
+    .aboutme_body ul li:first-child {
+        margin-top: 20px;
+    }
     
 }
 
@@ -601,3 +671,19 @@ transition: fill ease-in-out .5s;
 .mainbox {
     margin-top: 0;
 } */
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.blue-mode {
+    background-color: #3498db;
+    color: #fff;
+}
+
+                                                                                /* BLUE THEME */

@@ -1,0 +1,182 @@
+body.protanopia-theme {
+    background-color: #d5ceb5;
+}
+
+body.protanopia-theme .wrapper nav ul li {
+    border-right: 1px solid #d5ceb5;
+    color: #d5ceb5;
+    white-space: nowrap;
+}
+
+body.protanopia-theme .wrapper nav ul li:last-child {
+    border-right: none;
+}
+body.deuteranopia-theme .aboutme_body ul li {
+    color: #d5ceb5ff;
+    background-color: #d5ceb53d;
+}
+body.deuteranopia-theme .aboutme_body ul li:hover {
+    color: #282d3cff;
+    background-color: #282d3c29;
+}
+body.protanopia-theme .aboutme_body ul .name {
+    color: #282d3c !important;
+    transform: none !important;
+    cursor: default !important;
+}
+body.protanopia-theme .mobile-logo-bar .menu-button,
+body.protanopia-theme .mobile-logo-bar .menu-button::before,
+body.protanopia-theme .mobile-logo-bar .menu-button::after {
+    background-color: #d5ceb5;
+  }
+body.protanopia-theme .mobile-logo-bar #menu-toggle:checked ~ .menu li {
+    border: 1px solid #6d6855;
+    border-right: 1px solid #6d6855;
+    color: #d5ceb5;
+  }
+  body.protanopia-theme .mobile-logo-bar .menu > li {
+    color: #d5ceb5;
+    background-color: #6d6855;
+  }
+  body.protanopia-theme .mobile-logo-bar .menu > li:not(:last-child) {
+    border-bottom: 1px solid #6d6855;
+  }
+  
+  body.protanopia-theme .home a {
+        color: #d5ceb5;
+    }
+    body.protanopia-theme .home a:hover  {
+        color: #282d3c;
+}
+body.protanopia-theme .aboutme a {
+        color: #d5ceb5;
+    }
+    body.protanopia-theme .aboutme a:hover  {
+        color: #282d3c;
+}
+body.protanopia-theme .aboutme_header h1 {
+    margin: 0;
+    background:linear-gradient(to bottom, #5e616b 0px, #5e616b 44px, #282d3c 44px, #282d3c 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+body.protanopia-theme .aboutme_header h2 {
+    margin: 0;
+    background:linear-gradient(to bottom, #5e616b 0px, #5e616b 44px, #282d3c 44px, #282d3c 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+body.protanopia-theme .mywork a {
+    color: #d5ceb5;
+}
+body.protanopia-theme .mywork a:hover  {
+    color: #282d3c;
+}
+body.protanopia-theme .contact a {
+    color: #d5ceb5;
+    }
+    body.protanopia-theme .contact a:hover  {
+    color: #282d3c;
+
+}
+body.protanopia-theme .logo a .cls-1 {
+    fill: #d5ceb5;
+}
+body.protanopia-theme .logo a:hover .cls-1 {
+    fill: #282d3c;
+    /* fill: rgb(9,93,134); */
+}
+body.protanopia-theme .redbox {
+    background-color: #6d6855;
+}
+body.protanopia-theme .bluebox {
+    /*background: linear-gradient(to bottom, #282d3c 0%, #282d3c 50%, #5e616b 51%, #5e616b 100%);*/
+    background: linear-gradient(to bottom, #5e616b 0%, #5e616b 50%, #282d3c 51%, #282d3c 100%);
+}
+
+/*.portfolio:hover .cls-1 {
+    fill: #6d6855;
+}*/
+body.protanopia-theme .aboutme_body {
+    color: #d5ceb5;
+
+}
+/* .aboutme_right p a {
+    text-decoration: none;
+    color: #d5ceb5;
+    z-index: 3;
+} */
+body.protanopia-theme .phone a {
+    color: #d5ceb5;
+}
+body.protanopia-theme .phone a:hover {
+    color: #282d3c;
+}
+body.protanopia-theme .email a {
+    color: #d5ceb5;
+}
+body.protanopia-theme .email a:hover {
+    color: #282d3c;
+}
+body.protanopia-theme .insta a {
+    color: #d5ceb5;
+}
+body.protanopia-theme .insta a:hover {
+    color: #282d3c;
+}
+body.protanopia-theme .twitter a {
+    color: #d5ceb5;
+}
+body.protanopia-theme .twitter a:hover {
+    color: #282d3c;
+}
+body.protanopia-theme .aboutme_right ul {
+    color: #d5ceb5;
+}
+body.protanopia-theme .downloadarrow {
+    background-color: #6d6855;
+    
+}
+body.protanopia-theme .downloadarrow .st0 {
+    stroke: #d5ceb5;
+}
+body.protanopia-theme .downloadarrow:hover .st0 {
+    stroke: #282d3c;
+}
+body.protanopia-theme .mainbox {
+    background-color: #6d6855;
+}
+body.protanopia-theme .closingbox {
+    background-color: #6d6855;
+}
+body.protanopia-theme .gallery .gallery-item .gallery-item-overlay {
+    background-color: #d5ceb5;
+}
+body.protanopia-theme .endbox {
+    background-color: #5e616b;
+}
+body.protanopia-theme .copyright .cls-1 {
+fill: #d5ceb5;
+}
+/* fix margin and padding */
+body.protanopia-theme .copyright a:hover .cls-1 {
+    fill: #282d3ce0;
+}
+body.protanopia-theme .name {
+    color: #282d3c;
+}
+body.protanopia-theme::-webkit-scrollbar-track {
+    background-color: #bdefff00;
+}
+
+body.protanopia-theme::-webkit-scrollbar-thumb {
+    background-color: #5e616b;
+}
+
+body.protanopia-theme::-webkit-scrollbar-corner {
+    background-color: #bdefff00;
+}

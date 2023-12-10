@@ -1,0 +1,182 @@
+body.deuteranopia-theme {
+    background-color: #d9d2b8;
+}
+
+body.deuteranopia-theme .wrapper nav ul li {
+    border-right: 1px solid #d9d2b8;
+    color: #d9d2b8;
+    white-space: nowrap;
+}
+
+body.deuteranopia-theme .wrapper nav ul li:last-child {
+    border-right: none;
+}
+body.deuteranopia-theme .aboutme_body ul li {
+    color: #d9d2b8ff;
+    background-color: #d9d2b83d;
+}
+body.deuteranopia-theme .aboutme_body ul li:hover {
+    color: #252b3bff;
+    background-color: #252b3b29;
+}
+body.deuteranopia-theme .aboutme_body ul .name {
+    color: #252b3b !important;
+    transform: none !important;
+    cursor: default !important;
+}
+body.deuteranopia-theme .mobile-logo-bar .menu-button,
+body.deuteranopia-theme .mobile-logo-bar .menu-button::before,
+body.deuteranopia-theme .mobile-logo-bar .menu-button::after {
+    background-color: #d9d2b8;
+  }
+body.deuteranopia-theme .mobile-logo-bar #menu-toggle:checked ~ .menu li {
+    border: 1px solid #767057;
+    border-right: 1px solid #767057;
+    color: #d9d2b8;
+  }
+  body.deuteranopia-theme .mobile-logo-bar .menu > li {
+    color: #d9d2b8;
+    background-color: #767057;
+  }
+  body.deuteranopia-theme .mobile-logo-bar .menu > li:not(:last-child) {
+    border-bottom: 1px solid #767057;
+  }
+  
+  body.deuteranopia-theme .home a {
+        color: #d9d2b8;
+    }
+    body.deuteranopia-theme .home a:hover  {
+        color: #252b3b;
+}
+body.deuteranopia-theme .aboutme a {
+        color: #d9d2b8;
+    }
+    body.deuteranopia-theme .aboutme a:hover  {
+        color: #252b3b;
+}
+body.deuteranopia-theme .aboutme_header h1 {
+    margin: 0;
+    background:linear-gradient(to bottom, #5c5f6a 0px, #5c5f6a 44px, #252b3b 44px, #252b3b 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+body.deuteranopia-theme .aboutme_header h2 {
+    margin: 0;
+    background:linear-gradient(to bottom, #5c5f6a 0px, #5c5f6a 44px, #252b3b 44px, #252b3b 80px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+body.deuteranopia-theme .mywork a {
+    color: #d9d2b8;
+}
+body.deuteranopia-theme .mywork a:hover  {
+    color: #252b3b;
+}
+body.deuteranopia-theme .contact a {
+    color: #d9d2b8;
+    }
+    body.deuteranopia-theme .contact a:hover  {
+    color: #252b3b;
+
+}
+body.deuteranopia-theme .logo a .cls-1 {
+    fill: #d9d2b8;
+}
+body.deuteranopia-theme .logo a:hover .cls-1 {
+    fill: #252b3b;
+    /* fill: rgb(9,93,134); */
+}
+body.deuteranopia-theme .redbox {
+    background-color: #767057;
+}
+body.deuteranopia-theme .bluebox {
+    /*background: linear-gradient(to bottom, #252b3b 0%, #252b3b 50%, #5c5f6a 51%, #5c5f6a 100%);*/
+    background: linear-gradient(to bottom, #5c5f6a 0%, #5c5f6a 50%, #252b3b 51%, #252b3b 100%);
+}
+
+/*.portfolio:hover .cls-1 {
+    fill: #767057;
+}*/
+body.deuteranopia-theme .aboutme_body {
+    color: #d9d2b8;
+
+}
+/* .aboutme_right p a {
+    text-decoration: none;
+    color: #d9d2b8;
+    z-index: 3;
+} */
+body.deuteranopia-theme .phone a {
+    color: #d9d2b8;
+}
+body.deuteranopia-theme .phone a:hover {
+    color: #252b3b;
+}
+body.deuteranopia-theme .email a {
+    color: #d9d2b8;
+}
+body.deuteranopia-theme .email a:hover {
+    color: #252b3b;
+}
+body.deuteranopia-theme .insta a {
+    color: #d9d2b8;
+}
+body.deuteranopia-theme .insta a:hover {
+    color: #252b3b;
+}
+body.deuteranopia-theme .twitter a {
+    color: #d9d2b8;
+}
+body.deuteranopia-theme .twitter a:hover {
+    color: #252b3b;
+}
+body.deuteranopia-theme .aboutme_right ul {
+    color: #d9d2b8;
+}
+body.deuteranopia-theme .downloadarrow {
+    background-color: #767057;
+    
+}
+body.deuteranopia-theme .downloadarrow .st0 {
+    stroke: #d9d2b8;
+}
+body.deuteranopia-theme .downloadarrow:hover .st0 {
+    stroke: #252b3b;
+}
+body.deuteranopia-theme .mainbox {
+    background-color: #767057;
+}
+body.deuteranopia-theme .closingbox {
+    background-color: #767057;
+}
+body.deuteranopia-theme .gallery .gallery-item .gallery-item-overlay {
+    background-color: #d9d2b8;
+}
+body.deuteranopia-theme .endbox {
+    background-color: #5c5f6a;
+}
+body.deuteranopia-theme .copyright .cls-1 {
+fill: #d9d2b8;
+}
+/* fix margin and padding */
+body.deuteranopia-theme .copyright a:hover .cls-1 {
+    fill: #252b3be0;
+}
+body.deuteranopia-theme .name {
+    color: #252b3b;
+}
+body.deuteranopia-theme::-webkit-scrollbar-track {
+    background-color: #bdefff00;
+}
+
+body.deuteranopia-theme::-webkit-scrollbar-thumb {
+    background-color: #5c5f6a;
+}
+
+body.deuteranopia-theme::-webkit-scrollbar-corner {
+    background-color: #bdefff00;
+}

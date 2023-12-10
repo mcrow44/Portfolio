@@ -46,7 +46,7 @@ body {
     flex-wrap: wrap;
     list-style: none;
     text-decoration: none;
-    margin-top: 80px;
+    margin-top: 120px;
     padding: 10px;
 }
 .aboutme_body ul li {
@@ -639,8 +639,8 @@ body::-webkit-scrollbar-corner {
     .mobile-logo-bar {
         display: none;
     }
-    .aboutme_body {
-        margin-left:320px;
+    .aboutme_body ul {
+        margin-left:280px;
     }
     .aboutme_body ul li:first-child {
         margin-top: 20px;

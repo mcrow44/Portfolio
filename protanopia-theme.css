@@ -62,7 +62,7 @@ body.protanopia-theme .aboutme_header h1 {
     text-align: center;
     justify-content: center;
 }
-body.protanopia-theme .aboutme_header h2 {
+body.protanopia-theme .aboutme_header h2 .colorbind {
     margin: 0;
     background:linear-gradient(to bottom, #5e616b 0px, #5e616b 44px, #282d3c 44px, #282d3c 80px);
     -webkit-background-clip: text;

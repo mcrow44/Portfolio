@@ -62,7 +62,7 @@ body.deuteranopia-theme .aboutme_header h1 {
     text-align: center;
     justify-content: center;
 }
-body.deuteranopia-theme .aboutme_header h2 {
+body.deuteranopia-theme .aboutme_header h2 .colorbind {
     margin: 0;
     background:linear-gradient(to bottom, #5c5f6a 0px, #5c5f6a 44px, #252b3b 44px, #252b3b 80px);
     -webkit-background-clip: text;

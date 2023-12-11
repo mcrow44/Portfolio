@@ -46,7 +46,7 @@ body {
     flex-wrap: wrap;
     list-style: none;
     text-decoration: none;
-    margin-top: 160px;
+    margin-top: 200px;
     padding: 10px;
 }
 .aboutme_body ul li {
@@ -462,11 +462,13 @@ main {
 }
 .downloadarrow .st0 {
     stroke: #decfb4;
-    transition: stroke ease-in-out .5s;
+    transition: .5s;
 }
 .downloadarrow:hover .st0 {
     stroke: #242c3c;
     transition: stroke ease-in-out .5s;
+    transition: all .5s;
+    transform: scale(1.05);
 }
 li .phone .email .insta .twitter {
     white-space: nowrap;

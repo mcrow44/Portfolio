@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #decfb4;
-    margin-top: -260px;
+    margin-top: -280px;
 }
 
 
@@ -689,6 +689,9 @@ body::-webkit-scrollbar-corner {
     }
     header nav li:first-child {
         padding-left: 10px;
+    }
+    .endbox {
+        height: 150px;
     }
 }
 /* .aboutme_left {

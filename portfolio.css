@@ -694,7 +694,7 @@ body::-webkit-scrollbar-corner {
         height: 160px;
     }
     .aboutme_header h1 {
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .aboutme_right ul .name {
         padding-right: 800px;
@@ -705,14 +705,31 @@ body::-webkit-scrollbar-corner {
     .aboutme_right ul .insta {
         padding-right: 800px;
     }
-    .aboutme_right ul .twitter {
+    .aboutme_right ul .email {
         padding-right: 800px;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
 .aboutme_header h1 {
-    margin-top: 20px;
+    padding-top: 40px;
 }
+.endbox {
+    height: 180px;
+}
+body {
+    margin-top: -300px;
+}
+}
+@media (min-width: 2000px) {
+    .aboutme_header h1 {
+        padding-top: 80px;
+    }
+    .endbox {
+        height: 200px;
+    }
+    body {
+        margin-top: -320px;
+    }
 }
 /* .aboutme_left {
     display: flex;

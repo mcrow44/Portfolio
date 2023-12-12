@@ -713,9 +713,10 @@ body::-webkit-scrollbar-corner {
     }
 }
 @media (min-width: 1600px) {
-.aboutme_header h1 {
+/* .aboutme_header h1 {
     padding-top: 40px;
-}
+    
+} */
 .endbox {
     height: 180px;
 }
@@ -724,15 +725,20 @@ body {
 }
 }
 @media (min-width: 2000px) {
-    .aboutme_header h1 {
-        padding-top: 80px;
-    }
-    .endbox {
-        height: 200px;
-    }
-    body {
-        margin-top: -320px;
-    }
+.aboutme_header h1 {
+    padding-top: 40px;
+    background:linear-gradient(to bottom, #58616b 0px, #58616b 84px, #242c3c 84px, #242c3c 120px);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+.endbox {
+    height: 200px;
+}
+body {
+    margin-top: -320px;
+}
 }
 /* .aboutme_left {
     display: flex;

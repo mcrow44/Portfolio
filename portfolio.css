@@ -708,6 +708,9 @@ body::-webkit-scrollbar-corner {
     .aboutme_right ul .email {
         padding-right: 800px;
     }
+    .aboutme_header h1 {
+        padding-top: 4px;
+    }
 }
 @media (min-width: 1600px) {
 .aboutme_header h1 {
@@ -717,7 +720,7 @@ body::-webkit-scrollbar-corner {
     height: 180px;
 }
 body {
-    margin-top: -300px;
+    margin-top: -280px;
 }
 }
 @media (min-width: 2000px) {

@@ -725,6 +725,9 @@ body {
 }
 }
 @media (min-width: 2000px) {
+.logo-bar {
+    margin-top: 50px;
+}
 .aboutme_header h1 {
     padding-top: 40px;
     background:linear-gradient(to bottom, #58616b 0px, #58616b 84px, #242c3c 84px, #242c3c 120px);
